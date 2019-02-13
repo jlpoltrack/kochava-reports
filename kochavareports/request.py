@@ -51,7 +51,7 @@ class CreateReportRequest(AuthRequest):
         data.update({
             'time_start': str(time_start),
             'time_end': str(time_end),
-            'time_series': kwargs.get('time_series', DateTimeGranularity.HOURLY),
+            #'time_series': kwargs.get('time_series', DateTimeGranularity.HOURLY), Unsure what this is for
             'delivery_method': [
                 "S3link",
             ],

@@ -13,7 +13,7 @@ def parse_str_datetime(strdate):
 def get_timestamp(d, timezone=None):
     # tz = pytz.timezone(timezone) if timezone else None
     # timezone is not used atm
-    if isinstance(d, basestring):
+    if isinstance(d, (str, bytes)):
         if d.isdigit():
             return int(d, 10)
         else:

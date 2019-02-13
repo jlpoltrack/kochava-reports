@@ -1,4 +1,4 @@
-import util
+from . import util
 from .exception import ApiResponseException, ApiCredentialsException
 
 
