@@ -29,7 +29,7 @@ class Credentials(object):
     def to_dict(self):
         return self.__dict__
 
-DEFAULT_API_VERSION = 'v1.2'
+DEFAULT_API_VERSION = 'v1.2' #Change the API Version?
 API_ENDPOINT = 'https://reporting.api.kochava.com/'
 
 
